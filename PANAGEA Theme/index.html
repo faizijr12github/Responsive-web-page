@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Panagea template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    
+    <!-- color-switcher -->
+      <div class="color-switcher">
+    <div class="color-switcher-btn">
+      <i class="bi bi-gear-fill"></i>
+    </div>
+    <h3>Select color</h3>
+    <div class="theme-buttons-container">
+      <span class="theme-buttons" data-color="#8e44ad" style="background-color: #8e44ad;"></span>
+      <span class="theme-buttons" data-color="#2980b9" style="background-color: #2980b9;"></span>
+      <span class="theme-buttons" data-color="#f39c12" style="background-color: #f39c12;"></span>
+      <span class="theme-buttons" data-color="#389f91" style="background-color: #389f91;"></span>
+      <span class="theme-buttons" data-color="#4f9f38" style="background-color: #4f9f38;"></span>
+      <span class="theme-buttons" data-color="#fce602" style="background-color: #fce602;"></span>
+      <span class="theme-buttons" data-color="#f38600" style="background-color: #f38600;"></span>
+      <span class="theme-buttons" data-color="#8d8d8d" style="background-color: #8d8d8d;"></span>
+      <span class="theme-buttons" data-color="#fc5b62" style="background-color: #fc5b62;"></span>
+    </div>
+
+  </div>
+    <!-- banner -->
+    <div class="banner">
+        <a href="#"><img src="images/banner_logo.svg" alt="banner_logo" class="img-fluid banner_img"></a>
+        <button class="btn banner_btn">Buy now</button>
+    </div>
+    <!-- top-btn -->
+    <button id="scrollToTopBtn">&#8593;</button>
+    <!-- myheader -->
+    <div class="my-header">
+        <!-- vedio -->
+        <video autoplay muted loop id="background-video">
+            <source src="pexels-wolfgang-schett-12690197-1280x720-25fps.mp4" type="video/mp4">
+            <!-- Add additional video source formats for browser compatibility -->
+        </video>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid nav_padd">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img class="img-fluid logo-image" src="images/navbar-logo-1.svg" width="150" height="36" alt="Logo">
+                </a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown drop-1">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 1</a></li>
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 2 <span
+                                            class="badge bg-danger">New!</span></a></li>
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 3 <span
+                                            class="badge bg-danger">New!</span></a></li>
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 4</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item nav-drp-item" href="#"> Second Level <span
+                                            class="float-end custom-toggle-arrow">&#187</span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                1</a></li>
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                2</a></li>
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown drop-1">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tours
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 1</a></li>
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 2</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item nav-drp-item nav-drp-item" href="#"> Second Level
+                                        <span class="float-end custom-toggle-arrow">&#187</span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                1</a></li>
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                2</a></li>
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown drop-1">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Hotels
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 1</a></li>
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 2</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item nav-drp-item" href="#"> Second Level <span
+                                            class="float-end custom-toggle-arrow">&#187</span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                1</a></li>
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                2</a></li>
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown drop-1">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Eat & Drink
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 1</a></li>
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 2</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item nav-drp-item" href="#"> Second Level <span
+                                            class="float-end custom-toggle-arrow">&#187</span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                1</a></li>
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                2</a></li>
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Adventure</a>
+                        </li>
+                        <li class="nav-item dropdown drop-1">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 1</a></li>
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 2</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item nav-drp-item" href="#"> Second Level <span
+                                            class="float-end custom-toggle-arrow">&#187</span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                1</a></li>
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                2</a></li>
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown drop-1">
+                            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Extra
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 1</a></li>
+                                <li><a class="dropdown-item nav-drp-item" href="#"> Menu Item 2</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item nav-drp-item" href="#"> Second Level <span
+                                            class="float-end custom-toggle-arrow">&#187</span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                1</a></li>
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                2</a></li>
+                                        <li><a class="dropdown-item nav-drp-item" href="#">Second Level Item
+                                                2</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Buy Template</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="navbar-nav nav-icons">
+                        <li class="nav-item">
+                            <a class="nav-link strong_link" href="#">
+                                <i class="bi bi-bag"></i>
+                                <strong class="nav-strong">4</strong>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-box-arrow-in-right"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-heart"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <!-- header-content -->
+        <div class="header-content">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <h1>BOOK UNIQUE EXPERIENCES</h1>
+                        <p>Expolore top rated tours, hotels and restaurants around the world</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row header">
+                    <div class="col-md-4 p-0 mb-1">
+                        <div class="input-group header-inp1">
+                            <input type="text" class="form-control" placeholder="Hotel, City...">
+                            <span class="input-group-text"><i class="bi bi-geo-alt"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-0 mb-1">
+                        <div class="input-group header-inp1">
+                            <input type="text" class="form-control" name="dates" placeholder="When..">
+                            <span class="input-group-text"><i class="bi bi-calendar"></i></span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 p-0 mb-1">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle active head-btn-1" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <div>Guests <span class="qtyTotal">12</span></div>
+
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Adults</a></li>
+                                <li><a class="dropdown-item" href="#">Children</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <button class="btn btn-danger head-btn-2">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section-01 -->
+    <div class="container mt-5 text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="sec1-span mb-3"><em></em></span>
+                <h2>Our Popular Tours</h2>
+                <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+            </div>
+        </div>
+    </div>
+    <!-- section-02-crausel -->
+    <div class="container">
+        <section id="slider" class="pt-5">
+            <div class="container">
+                <div class="slider">
+                    <div class="owl-carousel">
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-2">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="images/crausel-img-1.jpg" alt="">
+                                    <small class="history-text">Historic</small>
+                                    <small class="heat-text"><i class="bi bi-heart"></i></small>
+                                    <small class="read-more-text">Read more</small>
+                                </div>
+                            </div>
+                            <div class="crsl-cards">
+                                <h3><a href="#">Versailles</a></h3>
+                                <p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.
+                                </p>
+                                <span class="price">From <strong class="text-success">$25</strong> /per person</span>
+                                <ul class="crsl-ul list-unstyled">
+                                    <li><i class="bi bi-clock"></i> 1h 30min</li>
+                                    <li>
+                                        <div class="score"><span>Good<br><em>350 Reviews</em></span><strong>7.0</strong>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-2">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="images/crausel-img-2.jpg" alt="">
+                                    <small class="history-text">Historic</small>
+                                    <small class="heat-text"><i class="bi bi-heart"></i></small>
+                                    <small class="read-more-text">Read more</small>
+                                </div>
+                            </div>
+                            <div class="crsl-cards">
+                                <h3><a href="#">Versailles</a></h3>
+                                <p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.
+                                </p>
+                                <span class="price">From <strong class="text-success">$25</strong> /per person</span>
+                                <ul class="crsl-ul list-unstyled">
+                                    <li><i class="bi bi-clock"></i> 1h 30min</li>
+                                    <li>
+                                        <div class="score"><span>Good<br><em>350 Reviews</em></span><strong>7.0</strong>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-2">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="images/crausel-img-3.jpg" alt="">
+                                    <small class="history-text">Historic</small>
+                                    <small class="heat-text"><i class="bi bi-heart"></i></small>
+                                    <small class="read-more-text">Read more</small>
+                                </div>
+                            </div>
+                            <div class="crsl-cards">
+                                <h3><a href="#">Versailles</a></h3>
+                                <p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.
+                                </p>
+                                <span class="price">From <strong class="text-success">$25</strong> /per person</span>
+                                <ul class="crsl-ul list-unstyled">
+                                    <li><i class="bi bi-clock"></i> 1h 30min</li>
+                                    <li>
+                                        <div class="score"><span>Good<br><em>350 Reviews</em></span><strong>7.0</strong>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-2">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="images/crausel-img-4.jpg" alt="">
+                                    <small class="history-text">Historic</small>
+                                    <small class="heat-text"><i class="bi bi-heart"></i></small>
+                                    <small class="read-more-text">Read more</small>
+                                </div>
+                            </div>
+                            <div class="crsl-cards">
+                                <h3><a href="#">Versailles</a></h3>
+                                <p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.
+                                </p>
+                                <span class="price">From <strong class="text-success">$25</strong> /per person</span>
+                                <ul class="crsl-ul list-unstyled">
+                                    <li><i class="bi bi-clock"></i> 1h 30min</li>
+                                    <li>
+                                        <div class="score"><span>Good<br><em>350 Reviews</em></span><strong>7.0</strong>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-2">
+                                <div class="image-container">
+                                    <img class="img-fluid" src="images/crausel-img-4.jpg" alt="">
+                                    <small class="history-text">Historic</small>
+                                    <small class="heat-text"><i class="bi bi-heart"></i></small>
+                                    <small class="read-more-text">Read more</small>
+                                </div>
+                            </div>
+                            <div class="crsl-cards">
+                                <h3><a href="#">Versailles</a></h3>
+                                <p>Id placerat tacimates definitionem sea, prima quidam vim no. Duo nobis persecuti cu.
+                                </p>
+                                <span class="price">From <strong class="text-success">$25</strong> /per person</span>
+                                <ul class="crsl-ul list-unstyled">
+                                    <li><i class="bi bi-clock"></i> 1h 30min</li>
+                                    <li>
+                                        <div class="score"><span>Good<br><em>350 Reviews</em></span><strong>7.0</strong>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- section-03 -->
+    <div class="container">
+        <div class="row mt-3 mb-5">
+            <div class="col-md-12 text-md-end text-center">
+                <button class="btn sec13-btn">View all Tours</button>
+            </div>
+        </div>
+    </div>
+    <!-- section-04 -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="sec1-span1 mb-3"><em></em></span>
+                <h2>Popular Hotels and Accommodations</h2>
+                <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+            </div>
+        </div>
+    </div>
+    <!-- section-05 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <a href="#" class="grid_item sec5-link">
+                    <figure>
+                      <div class="myscore"><strong>8.9</strong></div>
+                      <img src="images/sec-5-img/sec-5-img-1.jpg" class="img-fluid sec-5-imgs" alt="">
+                      <div class="info">
+                        <div class="cat_star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                        <h3>Mariott Hotel</h3>
+                      </div>
+                    </figure>
+                  </a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <a href="#" class="grid_item sec5-link">
+                    <figure>
+                        <div class="myscore"><strong>8.9</strong></div>
+                        <img src="images/sec-5-img/sec-5-img-2.jpg" class="img-fluid sec-5-imgs" alt="">
+                        <div class="info">
+                            <div class="cat_star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h3>Mariott Hotel</h3>
+                        </div>
+                    </figure>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <a href="#" class="grid_item sec5-link">
+                    <figure>
+                        <div class="myscore"><strong>8.9</strong></div>
+                        <img src="images/sec-5-img/sec-5-img-3.jpg" class="img-fluid sec-5-imgs" alt="">
+                        <div class="info">
+                            <div class="cat_star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h3>Mariott Hotel</h3>
+                        </div>
+                    </figure>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <a href="#" class="grid_item sec5-link">
+                    <figure>
+                        <div class="myscore"><strong>8.9</strong></div>
+                        <img src="images/sec-5-img/sec-5-img-4.jpg" class="img-fluid sec-5-imgs" alt="">
+                        <div class="info">
+                            <div class="cat_star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h3>Mariott Hotel</h3>
+                        </div>
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- section-06 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <a class="sec-6-link" href="#"><strong>View all (157) <i
+                            class="bi bi-arrow-right-short"></i></strong></a>
+            </div>
+        </div>
+    </div>
+    <!-- section-07 -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="sec1-span1 mb-3"><em></em></span>
+                <h2>Popular Restaurants</h2>
+                <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+            </div>
+        </div>
+    </div>
+    <!-- section-08 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <a href="#" class="grid_item sec5-link">
+                    <figure>
+                        <div class="myscore"><strong>8.9</strong></div>
+                        <img src="images/sec-8-img/sec-8-img1.jpg" class="img-fluid sec-5-imgs" alt="">
+                        <div class="info">
+                            <div class="cat_star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h3>Mariott Hotel</h3>
+                        </div>
+                    </figure>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <a href="#" class="grid_item sec5-link">
+                    <figure>
+                        <div class="myscore"><strong>8.9</strong></div>
+                        <img src="images/sec-8-img/sec-8-img2.jpg" class="img-fluid sec-5-imgs" alt="">
+                        <div class="info">
+                            <div class="cat_star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h3>Mariott Hotel</h3>
+                        </div>
+                    </figure>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <a href="#" class="grid_item sec5-link">
+                    <figure>
+                        <div class="myscore"><strong>8.9</strong></div>
+                        <img src="images/sec-8-img/sec-8-img3.jpg" class="img-fluid sec-5-imgs" alt="">
+                        <div class="info">
+                            <div class="cat_star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h3>Mariott Hotel</h3>
+                        </div>
+                    </figure>
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <a href="#" class="grid_item sec5-link">
+                    <figure>
+                        <div class="myscore"><strong>8.9</strong></div>
+                        <img src="images/sec-8-img/sec-8-img4.jpg" class="img-fluid sec-5-imgs" alt="">
+                        <div class="info">
+                            <div class="cat_star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                            <h3>Mariott Hotel</h3>
+                        </div>
+                    </figure>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- section-09 -->
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-12">
+                <a class="sec-6-link" href="#"><strong>View all (157) <i
+                            class="bi bi-arrow-right-short"></i></strong></a>
+            </div>
+        </div>
+    </div>
+    <!-- section-10 -->
+    <div class="container mt-5 sec-10 text-white">
+        <div class="row sec-10-bg">
+            <div class="col-6">
+                <div class="sec-10-content">
+                    <p class="h5">Adventure</p>
+                    <h2>Your Perfect<br>Adventure Experience</h2>
+                    <p class="h4">Activities and accommodations</p>
+                    <a href="#" class="btn btn-danger sec10-btn mt-3">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section-11 -->
+    <div class="container mt-5 text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <span class="sec1-span mb-3"><em></em></span>
+                <h2>News and Events</h2>
+                <p>Cum doctus civibus efficiantur in imperdiet deterruisset.</p>
+            </div>
+        </div>
+    </div>
+    <!-- section-12 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mt-5">
+                <div class="row">
+                    <div class="col-md-5 sec12-box1">
+                        <div class="image-container">
+                            <img class="img-fluid sec12-img" src="images/sec-12-img/sec12-img1.jpg" alt="789">
+                            <figcaption><strong>28</strong><br>Dec</figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-7 sec12-content">
+                        <p>Mark Twain - 20.11.2017</p>
+                        <h4>Pri oportere scribentur eu</h4>
+                        <p>Cu eum alia elit, usu in eius appareat, deleniti sapientem honestatis eos ex. In ius esse
+                            ullum vidisse....</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6 mt-5">
+                <div class="row">
+                    <div class="col-md-5 sec12-box1">
+                        <div class="image-container">
+                            <img class="img-fluid sec12-img" src="images/sec-12-img/sec12-img2.jpg" alt="789">
+                            <figcaption><strong>28</strong><br>Dec</figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-7 sec12-content">
+                        <p>Mark Twain - 20.11.2017</p>
+                        <h4>Pri oportere scribentur eu</h4>
+                        <p>Cu eum alia elit, usu in eius appareat, deleniti sapientem honestatis eos ex. In ius esse
+                            ullum vidisse....</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mt-5">
+                <div class="row">
+                    <div class="col-md-5 sec12-box1">
+                        <div class="image-container">
+                            <img class="img-fluid sec12-img" src="images/sec-12-img/sec12-img3.jpg" alt="789">
+                            <figcaption><strong>28</strong><br>Dec</figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-7 sec12-content">
+                        <p>Mark Twain - 20.11.2017</p>
+                        <h4>Pri oportere scribentur eu</h4>
+                        <p>Cu eum alia elit, usu in eius appareat, deleniti sapientem honestatis eos ex. In ius esse
+                            ullum vidisse....</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-6 col-md-12 mt-5">
+                <div class="row">
+                    <div class="col-md-5 sec12-box1">
+                        <div class="image-container">
+                            <img class="img-fluid sec12-img" src="images/sec-12-img/sec12-img4.jpg" alt="789">
+                            <figcaption><strong>28</strong><br>Dec</figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-7 sec12-content">
+                        <p>Mark Twain - 20.11.2017</p>
+                        <h4>Pri oportere scribentur eu</h4>
+                        <p>Cu eum alia elit, usu in eius appareat, deleniti sapientem honestatis eos ex. In ius esse
+                            ullum vidisse....</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- section-13 -->
+    <div class="container">
+        <div class="row mt-3 mb-5">
+            <div class="col-md-12 text-md-end text-center">
+                <button class="btn sec13-btn">View all news</button>
+            </div>
+        </div>
+    </div>
+    <!-- section-14 -->
+    <div class="container-fluid sec-14 mb-0">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-md-5 sec14-box">
+                    <div class="sec14-content">
+                        <h3 class="mb-3">Enjoy a GREAT travel with us</h3>
+                        <p class="mb-5">Ius cu tamquam persequeris, eu veniam apeirian platonem qui, id aliquip
+                            voluptatibus pri. Ei
+                            mea primis ornatus disputationi. Menandri erroribus cu per, duo solet congue ut. </p>
+                        <button class="btn sec13-btn">Read more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container-fluid bg-dark text-white">
+        <div class="container">
+            <div class="row pb-3">
+                <div class="col-lg-5 col-md-12 mt-5 pe-5">
+                    <img class="img-fluid mb-4" src="images/navbar-logo-1.svg" width="150" height="36" alt="Logo">
+                    <p>Mea nibh meis philosophia eu. Duis legimus efficiantur ea sea. Id placerat tacimates definitionem
+                        sea, prima quidam vim no. Duo nobis persecuti cu. Nihil facilisi indoctum an vix, ut delectus
+                        expetendis vis.</p>
+                    <ul class="d-flex flex-wrap list-unstyled footer-social-links">
+                        <li class="me-2">Follow us</li>
+                        <li class="me-2"><a href="#0"><i class="bi bi-facebook"></i></a></li>
+                        <li class="me-2"><a href="#0"><i class="bi bi-twitter"></i></a></li>
+                        <li class="me-2"><a href="#0"><i class="bi bi-google"></i></a></li>
+                        <li class="me-2"><a href="#0"><i class="bi bi-pinterest"></i></a></li>
+                        <li class="me-2"><a href="#0"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-5">
+                    <h5 class="mb-3">Useful links</h5>
+                    <ul class="useful-links list-unstyled">
+                        <li class="mb-2"><a href="#">About</a></li>
+                        <li class="mb-2"><a href="#">Login</a></li>
+                        <li class="mb-2"><a href="#">Register</a></li>
+                        <li class="mb-2"><a href="#">News & Events</a></li>
+                        <li><a href="#">Contacts</a></li>
+                      </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-5">
+                    <h5 class="mb-3">Contact with Us</h5>
+                    <ul class="contacts list-unstyled">
+                        <li class="mb-2"><a href="#"><i class="bi bi-phone"></i> + 61 23 8093 3400</a></li>
+                        <li><a href="#"><i class="bi bi-envelope"></i> info@Panagea.com</a></li>
+                    </ul>
+                    <h6 class="mb-3">Newsletter</h6>
+                    <div class="input-group mb-3 footer-inp">
+                        <input type="email" class="form-control" placeholder="Your Email"
+                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-danger footer-inp-btn" type="button" id="button-addon2">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container pt-3">
+            <div class="row pb-3">
+                <div class="col-lg-6 col-md-12">
+                    <ul class="d-flex flex-wrap list-unstyled align-item-center">
+                        <li class="me-2">
+                            <div id="lang-selector">
+                                <select class="styled-select">
+                                    <option value="English" selected="">English</option>
+                                    <option value="French">French</option>
+                                    <option value="Spanish">Spanish</option>
+                                    <option value="Russian">Russian</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="me-2">
+                            <div id="currency-selector">
+                                <select class="styled-select">
+                                    <option value="US Dollars" selected="">US Dollars</option>
+                                    <option value="Euro">Euro</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li class="me-2">
+                            <img src="images/footer-img.svg" alt="footer-img">
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="footer-last-box">
+                        <ul class="f_additional_links list-unstyled">
+                            <li><a href="#">Terms and conditions</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><span>© Panagea</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- crausel-scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+    <!-- boootstrap script -->
+    
+
+</body>
+
+</html>
